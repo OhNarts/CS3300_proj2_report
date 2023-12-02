@@ -66,16 +66,10 @@ We identified and prioritized requirements based on the user experience and enjo
 
 
 ## Design 
-- Present architectural and low-level design diagrams.
-- Explain your design decisions and their impact.
+
 
 
 ## Testing 
-
-- Elaborate on the Test Strategy, including whitebox and blackbox testing methods.
-- List various tools used for testing and explain their purpose.
-- Provide detailed test cases and their outcomes.
-- Discuss how testing influenced the development process and the final product.
 
 #### Whitebox testing
 The Unity Test Framework was used to perform whitebox unit testing directly within the Unity editor. We identified potential errors based on the code and attempted to cover as much functionality as possible with the unit tests.
