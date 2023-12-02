@@ -66,7 +66,9 @@ We identified and prioritized requirements based on the user experience and enjo
 
 
 ## Design 
+Dyad uses an event driven architecture to control the flow of gameplay. This is especially useful for video games, as it is very intuitive to control logic based of off various states in the game. For example, when one of the user's circles touches an obstacle/goal, an event is fired to notify the player that they have collided with an object, and then advance the GameManager's gamestate. The GameManager then also sends out an event that notifies all subscribers of the current state of games, which is used to do things such as play sounds, start/stop songs, control ui, etc.
 
+![Sequence Diagram](SequenceDiagram.drawio.png)
 
 
 ## Testing 
